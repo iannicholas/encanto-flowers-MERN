@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Poppins:ital@0;1&display=swap');
+
+.success-container {
+    border: solid 0.5px #F2F2F2;
+}
+
+.success-container h2{
+    font-size: 28px !important;
+}
+
+.success-container p {
+    font-family: 'Poppins', sans-serif;
+}

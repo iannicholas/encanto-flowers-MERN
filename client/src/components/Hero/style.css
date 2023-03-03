@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Poppins:ital@0;1&display=swap');
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    background-size: 'cover';
+}
+
+.category-img {
+    width: 315px;
+    height: 122px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -61px;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 18rem;
+    margin: 0 14rem;
+}
+
+h2 {
+    font-family: 'Cherry Swash', cursive;
+    text-align: left;
+    background-image: linear-gradient(180deg, #4498AA 27.07%, #3358A1 79.18%) !important;
+    background-clip: text;
+    font-size: 50px;
+    color: transparent;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .category-img {
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width:1480px ) and (min-width: 1050px) {
+    figcaption {
+        position: absolute;
+        bottom: 11rem;
+        margin: 0 14rem;
+    }
+}
+
+@media only screen and (max-width:1049px ) and (min-width: 826px) {
+    figcaption {
+        position: absolute;
+        bottom: 7rem;
+        margin: 0 14rem;
+    }
+}
+
+@media only screen and (max-width:826px ) {
+    figcaption {
+        position: absolute;
+        bottom: 3em;
+        margin: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    .fig-caption h2 {
+        font-size: 30px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 393px) {
+    .fig-caption h2 {
+        font-size: 20px !important;
+    }
+    .fig-caption h4 {
+        font-size: 18px;
+    }
+    
+}

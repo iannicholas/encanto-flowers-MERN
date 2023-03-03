@@ -1,0 +1,78 @@
+.single-card {
+    box-shadow: 10px 10px 30px lightgrey ; 
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+    height: 27rem;
+    margin-top: 50px;
+    align-content: center;
+}
+
+
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+    .single-card {
+        box-shadow: 10px 10px 30px lightgrey ; 
+        margin-right: 7px;
+        margin-left: 7px;
+        width: auto;
+        height: 25rem;
+        margin-top: 50px;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .single-card {
+        box-shadow: 10px 10px 30px lightgrey ; 
+        margin-right: 5px;
+        margin-left: 5px;
+        width: auto;
+        height: 23rem;
+        margin-top: 50px;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .single-card {
+        box-shadow: 10px 10px 30px lightgrey ; 
+        margin-right: 5px;
+        margin-left: 5px;
+        width: auto;
+        height: 23rem;
+        margin-top: 30px;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 533px) {
+    .single-card {
+        box-shadow: 10px 10px 30px lightgrey ; 
+        margin-right: 5px;
+        margin-left: 5px;
+        width: auto;
+        height: 42rem;
+        margin-top: 30px;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .single-card {
+        box-shadow: 10px 10px 30px lightgrey ; 
+        margin-right: 5px;
+        margin-left: 5px;
+        width: auto;
+        height: auto;
+        margin-top: 30px;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .button-shopnow {
+        width: 289px !important;
+    height: 40px !important;
+    }
+    
+}

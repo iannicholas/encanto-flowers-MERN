@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Poppins:ital@0;1&display=swap');
+
+DropdownButton .category-dropdown {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px !important;
+    width: 259px;
+    height: 56px;
+    background-color: white !important;
+    border: 1px solid #D7D4D4 !important;
+    color: black !important;
+    display: block;
+}
+
+.buttongroup-container {
+    display: block;
+    text-align: center;
+}

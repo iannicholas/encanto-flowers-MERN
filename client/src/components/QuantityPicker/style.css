@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Poppins:ital@0;1&display=swap');
+
+.button-qty {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color: white !important;
+    color: #56B280 !important;
+    border: 0px !important;
+}
+
+.button-container {
+    width: 150px !important; 
+    border: 1px #56B280  solid; 
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px !important;
+
+}
+
+.button-sel {
+    width: 2px;
+}
